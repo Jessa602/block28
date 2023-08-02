@@ -1,0 +1,172 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+  background-color: rgb(18, 214, 204);
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+}
+
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-image: linear-gradient(
+    to right,
+    red,
+    rgb(244, 63, 63),
+    rgb(241, 152, 152)
+  );
+  color: white;
+}
+
+.blue {
+  background-image: linear-gradient(
+    to right,
+    blue,
+    rgb(79, 79, 184),
+    lightblue
+  );
+  color: white;
+}
+
+.orange {
+  background-image: linear-gradient(
+    to right,
+    orange,
+    rgb(232, 184, 94),
+    rgb(242, 238, 223)
+  );
+  color: white;
+}
+
+.green {
+  background-image: linear-gradient(
+    to right,
+    green,
+    rgb(94, 232, 94),
+    rgb(223, 242, 223)
+  );
+  color: white;
+}
+
+.violet {
+  background-image: linear-gradient(
+    to right,
+    purple,
+    rgb(184, 94, 232),
+    rgb(242, 223, 242)
+  );
+  color: white;
+}
+
+.yellow {
+  background-image: linear-gradient(
+    to right,
+    yellow,
+    rgb(232, 232, 94),
+    rgb(242, 242, 223)
+  );
+  color: white;
+}
+
+.indigo {
+  background-image: linear-gradient(
+    to right,
+    indigo,
+    rgb(94, 94, 232),
+    rgb(223, 223, 242)
+  );
+  color: white;
+}
+
+.home {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  color: white;
+}
+
+.rd {
+  color: red;
+}
+
+.og {
+  color: orange;
+}
+
+.yl {
+  color: yellow;
+}
+
+.gr {
+  color: green;
+}
+
+.bl {
+  color: blue;
+}
+
+.io {
+  color: indigo;
+}
+
+.vt {
+  color: violet;
+}
+
+.yw {
+  color: yellow;
+}
+
+.gn {
+  color: green;
+}
+
+.h1 {
+  font-size: 3em;
+}
+
+.title {
+  font-size: 2.5em;
+  background-color: transparent;
+}
+
+.heading {
+  font-size: 3em;
+  color: white;
+  background-color: transparent;
+}
